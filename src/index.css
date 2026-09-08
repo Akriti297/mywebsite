@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Outfit', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --color-surface: #fff8f6;
+  --color-surface-dim: #e4d7d4;
+  --color-surface-bright: #fff8f6;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #fff1ed;
+  --color-surface-container: #f9ebe7;
+  --color-surface-container-high: #f3e5e2;
+  --color-surface-container-highest: #ede0dc;
+  --color-on-surface: #211a18;
+  --color-on-surface-variant: #514347;
+  --color-inverse-surface: #362f2d;
+  --color-inverse-on-surface: #fceeea;
+  --color-outline: #837377;
+  --color-outline-variant: #d5c2c6;
+  --color-surface-tint: #894b63;
+  --color-primary: #72384f;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #8e4f67;
+  --color-on-primary-container: #ffd4e1;
+  --color-inverse-primary: #ffb0cb;
+  --color-secondary: #815062;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #fdbed3;
+  --color-on-secondary-container: #7a495b;
+  --color-tertiary: #295429;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #416d3f;
+  --color-on-tertiary-container: #bbedb3;
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+  --color-primary-fixed: #ffd9e4;
+  --color-primary-fixed-dim: #ffb0cb;
+  --color-on-primary-fixed: #38081f;
+  --color-on-primary-fixed-variant: #6d344b;
+  --color-secondary-fixed: #ffd9e4;
+  --color-secondary-fixed-dim: #f4b5ca;
+  --color-on-secondary-fixed: #330e1f;
+  --color-on-secondary-fixed-variant: #66394a;
+  --color-tertiary-fixed: #bdf0b6;
+  --color-tertiary-fixed-dim: #a2d39b;
+  --color-on-tertiary-fixed: #002204;
+  --color-on-tertiary-fixed-variant: #255025;
+  --color-background: #fff8f6;
+  --color-on-background: #211a18;
+  --color-surface-variant: #ede0dc;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-surface);
+    color: var(--color-on-surface);
+  }
+  
+  code, pre, .font-mono {
+    font-family: var(--font-mono);
+  }
+}
+
